@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Básico de HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        mark {
+            background-color: #ffeb3b;
+        }
+
+        small {
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        i {
+            font-style: italic;
+        }
+
+        u {
+            text-decoration: underline;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ol, ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 5px solid #ccc;
+        }
+
+        del {
+            color: red;
+            text-decoration: line-through;
+        }
+
+        sub {
+            vertical-align: sub;
+            font-size: smaller;
+        }
+
+        sup {
+            vertical-align: super;
+            font-size: smaller;
+        }
+
+        abbr[title] {
+            border-bottom: 1px dotted;
+            cursor: help;
+        }
+
+        .code {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            display: block;
+            margin: 10px 0;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tutorial Básico de HTML por Álvaro Manassés</h1>
+    <p>Página desenvolvida como parte da atividade "Criar Uma Página Web Utilizando as Tags Aprendidas" no curso da DIO - Formação HTML Web Developer.</p>
+    <h1>Tags de Cabeçalho: <code>&lt;h1&gt; a &lt;h6&gt;</code></h1>
+    <p>Essas tags são usadas para definir cabeçalhos de diferentes níveis de importância.</p>
+    <h2>Exemplo:</h2>
+    <h1>Título Principal - &lt;h1&gt;</h1>
+    <h2>Subtítulo - &lt;h2&gt;</h2>
+    <h3>Título Menor - &lt;h3&gt;</h3>
+    <h4>Título Secundário - &lt;h4&gt;</h4>
+    <h5>Título Pequeno - &lt;h5&gt;</h5>
+    <h6>Menor Título - &lt;h6&gt;</h6>
+
+    <hr>
+
+    <h1>Tag de Parágrafo: <code>&lt;p&gt;</code></h1>
+    <p>Esta tag é utilizada para definir um parágrafo de texto.</p>
+
+    <hr>
+
+    <h1>Tag de Marcação: <code>&lt;mark&gt;</code></h1>
+    <p>Utilize <mark>esta tag</mark> para destacar texto, como se fosse um marca-texto.</p>
+
+    <hr>
+
+    <h1>Tag de Texto Pequeno: <code>&lt;small&gt;</code></h1>
+    <p>Esta tag exibe texto em tamanho reduzido. <small>Exemplo de texto pequeno.</small></p>
+
+    <hr>
+
+    <h1>Tags de Estilo: <code>&lt;i&gt;, &lt;u&gt;, &lt;strong&gt;</code></h1>
+    <p>Use <i>italico</i> com a tag <code>&lt;i&gt;</code>, <u>sublinhado</u> com a tag <code>&lt;u&gt;</code> e <strong>negrito</strong> com a tag <code>&lt;strong&gt;</code>.</p>
+
+    <hr>
+
+    <h1>Listas Ordenadas e Não Ordenadas: <code>&lt;ol&gt;, &lt;ul&gt;, &lt;li&gt;</code></h1>
+    <h2>Exemplo de Lista Ordenada:</h2>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <h2>Exemplo de Lista Não Ordenada:</h2>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <hr>
+
+    <h1>Link: <code>&lt;a&gt;</code></h1>
+    <p>Use a tag <code>&lt;a&gt;</code> para criar links. Exemplo: <a href="https://dio.me" target="_blank">Clique aqui para visitar o site da DIO</a>.</p>
+
+    <hr>
+
+    <h1>Citação: <code>&lt;blockquote&gt;</code></h1>
+    <blockquote>"Esta é uma citação famosa." - Alguém Famoso</blockquote>
+
+    <hr>
+
+    <h1>Texto Riscado: <code>&lt;del&gt;</code></h1>
+    <p>Esta tag exibe <del>texto riscado</del>.</p>
+
+    <hr>
+
+    <h1>Subscrito e Sobrescrito: <code>&lt;sub&gt;, &lt;sup&gt;</code></h1>
+    <p>Use a tag <code>&lt;sub&gt;</code> para subscrito, como em H<sub>2</sub>O.</p>
+    <p>Use a tag <code>&lt;sup&gt;</code> para sobrescrito, como em E = mc<sup>2</sup>.</p>
+
+    <hr>
+
+    <h1>Abreviações: <code>&lt;abbr&gt;</code></h1>
+    <p>Use a tag <abbr title="Hypertext Markup Language">HTML</abbr> para definir abreviações.</p>
+
+    <hr>
+
+    <footer>
+        <p>Dicas de boas práticas:</p>
+        <ul>
+            <li>Mantenha o código HTML organizado e bem indentado.</li>
+            <li>Use tags semânticas para melhorar a acessibilidade e o SEO.</li>
+            <li>Evite estilos embutidos; prefira usar arquivos CSS externos.</li>
+            <li>Valide o HTML para garantir que ele esteja livre de erros.</li>
+            <li>Utilize um tema de cores que seja agradável para leitura e que atenda aos critérios de acessibilidade.</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
